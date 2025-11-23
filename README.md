@@ -25,7 +25,7 @@ This setup is built around a modular and lightweight stack:
 - **System Fetch:** Fastfetch (custom Spider-Man ASCII)  
 - **File Manager:** Nautilus (GTK4, Catppuccin Mocha Peach)  
 - **Screenshot Tool:** Flameshot  
-- **Music:** Spotify + Spicetify theme  
+- **Music:** Spotify + Spicetify theme (ziro theme + custom color theme) 
 
 ---
 
