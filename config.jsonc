@@ -1,0 +1,140 @@
+{
+  "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/dev/doc/json_schema.json",
+  "logo": {
+    "source": "/home/solaris/.config/fastfetch/spidey.txt",
+    "color": { "1": "red" }
+  },
+  "display": {
+      "separator": " "
+  },
+  "modules": [
+    {
+      "type": "title",
+      "keyWidth": 10,
+    },
+    {
+        "type": "os",
+        "key": " OS",
+        "keyColor": "#ff9e64"
+    },
+    {
+        "type": "kernel",
+        "key": "├ Kernel",
+        "keyColor": "#ff9e64"
+    },
+    {
+        "type": "packages",
+        "key": "├󰏖 Packages",
+        "keyColor": "#ff9e64"
+    },
+    {
+        "type": "shell",
+        "key": "├ Shell",
+        "keyColor": "#ff9e64"
+    },
+    {
+        "type": "localip",
+        "key": "├󰩟 Local IP",
+        "keyColor": "#ff9e64"
+    },
+    {
+        "type": "uptime",
+        "key": "└󰅐 Start Time",
+        "keyColor": "#ff9e64"
+    },
+    "break",
+    {
+        "type": "de",
+        "key": " DE",
+        "keyColor": "#7aa2f7"
+    },
+    {
+        "type": "wm",
+        "key": "├󰧨 Window Manager",
+        "keyColor": "#7aa2f7"
+    },
+    {
+        "type": "lm",
+        "key": "├󰧨 Login Manager",
+        "keyColor": "#7aa2f7"
+    },
+    {
+        "type": "wmtheme",
+        "key": "├󰉼 WM Theme",
+        "keyColor": "#7aa2f7"
+    },
+    {
+        "type": "theme",
+        "key": "├󰉼 Color Themes",
+        "keyColor": "#7aa2f7"
+    },
+    {
+        "type": "icons",
+        "key": "├󰸉 System Icons",
+        "keyColor": "#7aa2f7"
+    },
+    {
+        "type": "font",
+        "key": "├ System Fonts",
+        "keyColor": "#7aa2f7"
+    },
+    {
+        "type": "terminal",
+        "key": "└ Terminal",
+        "keyColor": "#7aa2f7"
+    },
+    "break",
+    {
+        "type": "chassis",
+        "key": "󰌢 PC",
+        "keyColor": "#9ece6a"
+    },
+    {
+        "type": "board",
+        "key": "├ Board",
+        "keyColor": "#9ece6a"
+    },
+    {
+        "type": "cpu",
+        "key": "├󰻠 CPU",
+        "keyColor": "#9ece6a",
+        "temp": true,
+        "freqNdigits": 1
+    },
+    {
+        "type": "memory",
+        "key": "├󰑭 RAM",
+        "keyColor": "#9ece6a"
+    },
+    {
+        "type": "swap",
+        "key": "├󰓡 Zram",
+        "keyColor": "#9ece6a"
+    },
+    {
+        "type": "disk",
+        "key": "├ Disk",
+        "keyColor": "#9ece6a"
+    },
+    {
+        "type": "gpu",
+        "key": "├󰍛 GPU",
+        "keyColor": "#9ece6a"
+    },
+    {
+        "type": "opengl",
+        "key": "├󰍛 OpenGL",
+        "keyColor": "#9ece6a"
+    },
+    {
+        "type": "vulkan",
+        "key": "├󰍛 Vulkan",
+        "keyColor": "#9ece6a"
+    },
+    {
+        "type": "display",
+        "key": "└󰍹 Display(s)",
+        "keyColor": "#9ece6a"
+    }
+  ]
+}

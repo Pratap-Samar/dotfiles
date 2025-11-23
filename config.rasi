@@ -1,0 +1,89 @@
+
+    /* ~/.config/rofi/config.rasi */
+
+    @import "sunset-swing.rasi"
+
+    configuration {
+        show-icons: true;
+        modi:       "drun";
+	display-drun: "󱓞 ";
+	icon-theme: "Papirus";
+        font:       "JetBrains Mono Nerd Font 14";
+    }
+
+    window {
+        background-color: rgba(36, 40, 59, 0.90);
+        border:           2px;
+	border-color: 	  @orange;
+        border-radius:    12px;
+        width:            35%;
+        location:         center;
+        padding:          20px;
+    }
+
+    mainbox {
+        border:  0;
+        padding: 0;
+    }
+
+    inputbar {
+        children:     [ prompt, entry ];
+        spacing:      10px;
+        padding:      10px;
+        border:       0px 0px 2px 0px;
+        border-color: @orange;
+    }
+
+    prompt {
+        enabled:    true;
+        text-color: @orange;
+    }
+
+    entry {
+        background-color:  transparent;
+        text-color:        @foreground;
+        placeholder-color: @white;
+        placeholder:       "Search...";
+        expand:            true;
+        padding:           0.3em;
+    }
+
+    listview {
+        border:    0;
+        padding:   10px 0px 0px;
+        columns:   1;
+        lines:     8;
+        spacing:   5px;
+        scrollbar: false;
+        layout:    vertical;
+    }
+
+    element {
+        border:  0;
+        padding: 8px;
+        border-radius: 8px;
+    }
+
+    element-text {
+        background-color: transparent;
+        text-color:       inherit;
+    }
+
+    element-icon {
+        background-color: transparent;
+        size: 1.5em;
+    }
+
+    element.normal.normal{
+	background-color: @background-alt;
+	text-color:	  @foreground;
+    }
+    element.alternate.normal {
+        background-color: @background-alt;
+        text-color:       @foreground;
+    }
+
+    element.selected.normal {
+        background-color: @orange;
+        text-color:       @background;
+    }
